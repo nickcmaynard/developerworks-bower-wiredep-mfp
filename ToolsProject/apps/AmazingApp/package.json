@@ -1,0 +1,15 @@
+{
+    "name": "AmazingApp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "wiredep": "wiredep --verbose --bowerJson bower.json --src common/index.html"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "wiredep": "^2.2.2"
+    }
+}

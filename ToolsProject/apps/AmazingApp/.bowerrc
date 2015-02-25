@@ -1,0 +1,6 @@
+{
+    "directory": "common/bower_components",
+    "scripts": {
+        "postinstall": "wiredep --verbose --bowerJson bower.json --src common/index.html"
+    }
+}
